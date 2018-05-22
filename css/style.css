@@ -1,11 +1,46 @@
-* {
-  background: linear-gradient(-1deg, #bbc8ff, #fff);
+body {
+  background: linear-gradient(-10deg, #bbc8ff, #fff);
   min-height: 100vh;
   font-size: 18px;
 }
 
-
-.grid {
+.text {
   display: flex;
+  align-items: center;
+  margin: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  border: 1px solid black;
+  list-style-type: none;
+  flex-basis: 25%;
+  width: auto;
+}
+
+.cakecontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.cakepix {
+  border: black solid;
+  padding: 10px;
+  margin: 10px;
   flex-grow: 1;
+  height: 200px;
+  width: 200px;
+}
+
+.third {
+  flex-basis: 25%;
+  border: solid;
 }
