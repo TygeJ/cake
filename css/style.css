@@ -7,10 +7,9 @@ body {
 .text {
   display: flex;
   align-items: center;
-  margin: 20px;
-  align-items: center;
+  margin: 20px 0 0 0;
   justify-content: space-evenly;
-  border: 1px solid black;
+  background: rgba(219, 222, 255, 0.7);
 }
 
 .header {
@@ -18,7 +17,8 @@ body {
   align-items: center;
   justify-content: space-evenly;
   height: 100px;
-  border: 1px solid black;
+  /* border: 1px solid #dbdeff; */
+  text-decoration: #dbdeff underline;
   list-style-type: none;
   flex-basis: 25%;
   width: auto;
@@ -31,16 +31,29 @@ body {
   padding: 30px;
 }
 
+.cakecontainer .cakepix {
+  justify-content: center;
+  align-items: center;
+}
+
 .cakepix {
   border: black solid;
+  /* border: rgba(219, 222, 255, 0.7) */
   padding: 10px;
   margin: 10px;
   flex-grow: 1;
   height: 200px;
   width: 200px;
+  justify-content: center;
+  align-items: center;
 }
 
 .third {
   flex-basis: 25%;
   border: solid;
+}
+
+.yum {
+  height: 95%;
+  widows: 95%;
 }
