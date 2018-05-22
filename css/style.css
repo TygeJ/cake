@@ -1,3 +1,11 @@
 * {
-  background: black;
+  background: linear-gradient(-1deg, #bbc8ff, #fff);
+  min-height: 100vh;
+  font-size: 18px;
+}
+
+
+.grid {
+  display: flex;
+  flex-grow: 1;
 }
