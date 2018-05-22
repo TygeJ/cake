@@ -31,10 +31,7 @@ body {
   padding: 30px;
 }
 
-.cakecontainer .cakepix {
-  justify-content: center;
-  align-items: center;
-}
+
 
 .cakepix {
   border: black solid;
