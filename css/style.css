@@ -24,6 +24,11 @@ body {
   width: auto;
 }
 
+.yum {
+  height: 95%;
+  widows: 95%;
+}
+
 .cakecontainer{
   display: flex;
   flex-wrap: wrap;
@@ -41,16 +46,11 @@ body {
   flex-grow: 1;
   height: 200px;
   width: 200px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
-.third {
+.infotext {
   flex-basis: 25%;
   border: solid;
-}
-
-.yum {
-  height: 95%;
-  widows: 95%;
 }
