@@ -46,8 +46,8 @@ body {
   padding: 10px;
   margin: 10px;
   flex-grow: 1;
-  height: 200px;
-  width: 200px;
+  /* height: 200px;
+  width: 200px; */
   justify-content: space-around;
   align-items: center;
   max-width: 226px;
