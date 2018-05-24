@@ -52,9 +52,21 @@ body {
   align-items: center;
   max-width: 226px;
   min-width: 226px;
+  min-height: 226px;
+  max-height: 226px;
+  background-color: white;
+}
+
+.cakes {
+  max-width: 226px;
+  min-width: 226px;
+  min-height: 226px;
+  max-height: 226px;
+
 }
 
 .infotext {
   flex-basis: 25%;
   border: solid;
+  padding: 5px;
 }
