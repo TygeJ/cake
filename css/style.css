@@ -1,3 +1,4 @@
+
 body {
   background: linear-gradient(-10deg, #bbc8ff, #fff);
   min-height: 100vh;
@@ -45,10 +46,9 @@ body {
   flex-grow: 1;
 }
 
-
-
 .cakepix {
   border: black solid;
+  display: flex;
   /* border: rgba(219, 222, 255, 0.7) */
   padding: 10px;
   margin: 10px;
@@ -62,6 +62,19 @@ body {
   min-height: 226px;
   max-height: 226px;
   background-color: white;
+  position: relative;
+}
+
+.caketext {
+  /* align-items: center; */
+  display: flex;
+font-family: 'Dancing Script', cursive;
+position: absolute;
+bottom: 15px;
+font-size: 25px;
+background-color: #f2f2f2;
+width: 100%;
+position: absolute;
 }
 
 .cakes {
@@ -80,19 +93,22 @@ body {
 .textcontainer{
   display: flex;
   align-items: center;
-  /* flex-wrap: wrap; */
-  justify-content: space-evenly;
-  /* padding: 30px; */
-  flex-grow: 4;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  position: center;
 }
 
 .infotext {
   border: solid;
   padding: 5px;
-  /* max-width: 226px; */
-  /* min-width: 226px; */
+  display: flex;
+  /* max-width: 226px;
+  min-width: 226px; */
   /* min-height: 226px; */
   /* max-height: 226px; */
   align-items: center;
+  justify-content: center;
   flex-grow: 4;
+  width: 80%;
 }
