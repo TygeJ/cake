@@ -130,6 +130,7 @@ body {
   opacity: 0;
   transition: .5s ease;
   background-color: white;
+  display: flex;
 }
 
 .text {
@@ -141,8 +142,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* -ms-transform: translate(-50%, -50%); */
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+  width: 75%;
+  height: 100%;
+
 }
 
 .cakepix:hover .overlay {
