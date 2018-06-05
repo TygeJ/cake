@@ -134,21 +134,18 @@ body {
 
 .text {
   color: black;
-  opacity: 0.1;
-  /* need to layer text on top of opacity */
+  /* opacity: 0.1; */
   font-size: 20px;
   position: absolute;
+  margin: 0;
+  padding: 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
-  justify-content: center;
-  align-items:center;
-
   width: 75%;
   height: 100%;
-
 }
+
 
 .cakepix:hover .overlay {
   opacity: 1;
