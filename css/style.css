@@ -112,7 +112,6 @@ body {
 .textcontainer{
   display: flex;
   position: relative;
-
   align-items: center;
   justify-content: center;
 }
@@ -161,60 +160,65 @@ body {
   justify-content: space-evenly;
   font-family: 'Dancing Script', cursive;
   font-weight: bold;
-
 }
-
 
 .cakepix:hover .overlay {
   opacity: 1;
 }
 
-
-
-
-
-
-
-
-/* .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+.aboutcontainer{
   display: flex;
-} */
+  justify-content: center;
+}
 
-/* .text {
-  color: white;
-  font-size: 20px;
+.abouttext {
+  border: solid;
+  padding: 5px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-} */
+  margin-top: 20px;
+  margin-left: 20px;
+  justify-content: center;
+  /* width: 100%; */
+}
 
-/*
-.text {
-   top: 50%;	   top: 50%;
-   left: 50%;	   left: 50%;
-   transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-display: flex;
-text-align: center;
-justify-content: center;
-align-items:center;
-width: 75%;
-height: 100%;
+.abouttext1 {
 
- } */
-/* .cakepic:hover .overlay {
-  opacity: 1;
-} */
+    border: solid;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 45%;
+    height: 100px;
+}
+
+.aboutcontainer1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.aboutcontainer2 {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.abouttext2 {
+  border: solid;
+  padding: 20px;
+  margin-top: -146px;
+  margin-left: 20px;
+  width: 45%;
+  height: 100px;
+}
+
+.aboutcontainerbottom{
+  display: flex;
+  justify-content: center;
+}
+
+.aboutbottom {
+  border: solid;
+  padding: 20px;
+  margin-top: 50px;
+  width: 45%;
+  height: 100%;
+}
