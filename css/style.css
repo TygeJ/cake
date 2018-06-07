@@ -208,7 +208,7 @@ body {
   margin-left: 20px;
   width: 45%;
   height: 100px;
-  
+
 }
 
 .aboutcontainerbottom{
@@ -222,4 +222,24 @@ body {
   margin-top: 50px;
   width: 45%;
   height: 100%;
+}
+
+.textcontainermenu {
+  display: flex;
+flex-wrap: wrap;
+justify-content: flex-end;
+width: 50%;
+}
+
+.menutext {
+  font-size: 10px;
+justify-content: center;
+font-family: 'Dancing Script', cursive;
+
+}
+
+.menutext1 {
+  border: solid;
+  font-family: 'Dancing Script', cursive;
+
 }
