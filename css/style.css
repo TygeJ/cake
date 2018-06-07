@@ -33,6 +33,12 @@ body {
   font-size: 26px;
 }
 
+.button:hover {
+  opacity: 0.2;
+  transition: .4s;
+
+}
+
 .logo {
   height: 100%;
   /* widows: 95%; */
