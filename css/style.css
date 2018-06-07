@@ -33,9 +33,9 @@ body {
   font-size: 26px;
 }
 
-.yum {
-  height: 95%;
-  widows: 95%;
+.logo {
+  height: 100%;
+  /* widows: 95%; */
 }
 
 .cakecontainer{
@@ -162,6 +162,13 @@ body {
 .cakepix:hover .overlay {
   opacity: 1;
 }
+
+
+
+
+
+
+
 
 /* .overlay {
   position: absolute;
